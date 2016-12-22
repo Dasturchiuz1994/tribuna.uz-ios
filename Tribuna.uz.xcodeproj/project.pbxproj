@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19195F131E0C4C2D001F1244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F121E0C4C2D001F1244 /* AppDelegate.swift */; };
+		19195F151E0C4C2D001F1244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F141E0C4C2D001F1244 /* ViewController.swift */; };
+		19195F181E0C4C2D001F1244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19195F161E0C4C2D001F1244 /* Main.storyboard */; };
+		19195F1A1E0C4C2D001F1244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19195F191E0C4C2D001F1244 /* Assets.xcassets */; };
+		19195F1D1E0C4C2D001F1244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */; };
+		19195F281E0C4C2D001F1244 /* Tribuna_uzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F271E0C4C2D001F1244 /* Tribuna_uzTests.swift */; };
+		19195F331E0C4C2D001F1244 /* Tribuna_uzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F321E0C4C2D001F1244 /* Tribuna_uzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19195F241E0C4C2D001F1244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19195F071E0C4C2D001F1244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19195F0E1E0C4C2D001F1244;
+			remoteInfo = Tribuna.uz;
+		};
+		19195F2F1E0C4C2D001F1244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19195F071E0C4C2D001F1244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19195F0E1E0C4C2D001F1244;
+			remoteInfo = Tribuna.uz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19195F0F1E0C4C2D001F1244 /* Tribuna.uz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tribuna.uz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19195F121E0C4C2D001F1244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19195F141E0C4C2D001F1244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19195F171E0C4C2D001F1244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19195F191E0C4C2D001F1244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19195F1C1E0C4C2D001F1244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19195F1E1E0C4C2D001F1244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19195F231E0C4C2D001F1244 /* Tribuna.uzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tribuna.uzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19195F271E0C4C2D001F1244 /* Tribuna_uzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribuna_uzTests.swift; sourceTree = "<group>"; };
+		19195F291E0C4C2D001F1244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19195F2E1E0C4C2D001F1244 /* Tribuna.uzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tribuna.uzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19195F321E0C4C2D001F1244 /* Tribuna_uzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribuna_uzUITests.swift; sourceTree = "<group>"; };
+		19195F341E0C4C2D001F1244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19195F0C1E0C4C2D001F1244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19195F201E0C4C2D001F1244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19195F2B1E0C4C2D001F1244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19195F061E0C4C2D001F1244 = {
+			isa = PBXGroup;
+			children = (
+				19195F111E0C4C2D001F1244 /* Tribuna.uz */,
+				19195F261E0C4C2D001F1244 /* Tribuna.uzTests */,
+				19195F311E0C4C2D001F1244 /* Tribuna.uzUITests */,
+				19195F101E0C4C2D001F1244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19195F101E0C4C2D001F1244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19195F0F1E0C4C2D001F1244 /* Tribuna.uz.app */,
+				19195F231E0C4C2D001F1244 /* Tribuna.uzTests.xctest */,
+				19195F2E1E0C4C2D001F1244 /* Tribuna.uzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19195F111E0C4C2D001F1244 /* Tribuna.uz */ = {
+			isa = PBXGroup;
+			children = (
+				19195F121E0C4C2D001F1244 /* AppDelegate.swift */,
+				19195F141E0C4C2D001F1244 /* ViewController.swift */,
+				19195F161E0C4C2D001F1244 /* Main.storyboard */,
+				19195F191E0C4C2D001F1244 /* Assets.xcassets */,
+				19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */,
+				19195F1E1E0C4C2D001F1244 /* Info.plist */,
+			);
+			path = Tribuna.uz;
+			sourceTree = "<group>";
+		};
+		19195F261E0C4C2D001F1244 /* Tribuna.uzTests */ = {
+			isa = PBXGroup;
+			children = (
+				19195F271E0C4C2D001F1244 /* Tribuna_uzTests.swift */,
+				19195F291E0C4C2D001F1244 /* Info.plist */,
+			);
+			path = Tribuna.uzTests;
+			sourceTree = "<group>";
+		};
+		19195F311E0C4C2D001F1244 /* Tribuna.uzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19195F321E0C4C2D001F1244 /* Tribuna_uzUITests.swift */,
+				19195F341E0C4C2D001F1244 /* Info.plist */,
+			);
+			path = Tribuna.uzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19195F0E1E0C4C2D001F1244 /* Tribuna.uz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19195F371E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uz" */;
+			buildPhases = (
+				19195F0B1E0C4C2D001F1244 /* Sources */,
+				19195F0C1E0C4C2D001F1244 /* Frameworks */,
+				19195F0D1E0C4C2D001F1244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tribuna.uz;
+			productName = Tribuna.uz;
+			productReference = 19195F0F1E0C4C2D001F1244 /* Tribuna.uz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19195F221E0C4C2D001F1244 /* Tribuna.uzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19195F3A1E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uzTests" */;
+			buildPhases = (
+				19195F1F1E0C4C2D001F1244 /* Sources */,
+				19195F201E0C4C2D001F1244 /* Frameworks */,
+				19195F211E0C4C2D001F1244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19195F251E0C4C2D001F1244 /* PBXTargetDependency */,
+			);
+			name = Tribuna.uzTests;
+			productName = Tribuna.uzTests;
+			productReference = 19195F231E0C4C2D001F1244 /* Tribuna.uzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19195F2D1E0C4C2D001F1244 /* Tribuna.uzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19195F3D1E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uzUITests" */;
+			buildPhases = (
+				19195F2A1E0C4C2D001F1244 /* Sources */,
+				19195F2B1E0C4C2D001F1244 /* Frameworks */,
+				19195F2C1E0C4C2D001F1244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19195F301E0C4C2D001F1244 /* PBXTargetDependency */,
+			);
+			name = Tribuna.uzUITests;
+			productName = Tribuna.uzUITests;
+			productReference = 19195F2E1E0C4C2D001F1244 /* Tribuna.uzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19195F071E0C4C2D001F1244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ahmadjon;
+				TargetAttributes = {
+					19195F0E1E0C4C2D001F1244 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					19195F221E0C4C2D001F1244 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19195F0E1E0C4C2D001F1244;
+					};
+					19195F2D1E0C4C2D001F1244 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19195F0E1E0C4C2D001F1244;
+					};
+				};
+			};
+			buildConfigurationList = 19195F0A1E0C4C2D001F1244 /* Build configuration list for PBXProject "Tribuna.uz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19195F061E0C4C2D001F1244;
+			productRefGroup = 19195F101E0C4C2D001F1244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19195F0E1E0C4C2D001F1244 /* Tribuna.uz */,
+				19195F221E0C4C2D001F1244 /* Tribuna.uzTests */,
+				19195F2D1E0C4C2D001F1244 /* Tribuna.uzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19195F0D1E0C4C2D001F1244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19195F1D1E0C4C2D001F1244 /* LaunchScreen.storyboard in Resources */,
+				19195F1A1E0C4C2D001F1244 /* Assets.xcassets in Resources */,
+				19195F181E0C4C2D001F1244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19195F211E0C4C2D001F1244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19195F2C1E0C4C2D001F1244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19195F0B1E0C4C2D001F1244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19195F151E0C4C2D001F1244 /* ViewController.swift in Sources */,
+				19195F131E0C4C2D001F1244 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19195F1F1E0C4C2D001F1244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19195F281E0C4C2D001F1244 /* Tribuna_uzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19195F2A1E0C4C2D001F1244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19195F331E0C4C2D001F1244 /* Tribuna_uzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19195F251E0C4C2D001F1244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19195F0E1E0C4C2D001F1244 /* Tribuna.uz */;
+			targetProxy = 19195F241E0C4C2D001F1244 /* PBXContainerItemProxy */;
+		};
+		19195F301E0C4C2D001F1244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19195F0E1E0C4C2D001F1244 /* Tribuna.uz */;
+			targetProxy = 19195F2F1E0C4C2D001F1244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19195F161E0C4C2D001F1244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19195F171E0C4C2D001F1244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19195F1C1E0C4C2D001F1244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19195F351E0C4C2D001F1244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19195F361E0C4C2D001F1244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19195F381E0C4C2D001F1244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tribuna.uz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19195F391E0C4C2D001F1244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tribuna.uz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		19195F3B1E0C4C2D001F1244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tribuna.uzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tribuna.uz.app/Tribuna.uz";
+			};
+			name = Debug;
+		};
+		19195F3C1E0C4C2D001F1244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tribuna.uzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tribuna.uz.app/Tribuna.uz";
+			};
+			name = Release;
+		};
+		19195F3E1E0C4C2D001F1244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Tribuna.uzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tribuna.uz;
+			};
+			name = Debug;
+		};
+		19195F3F1E0C4C2D001F1244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Tribuna.uzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tribuna.uz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19195F0A1E0C4C2D001F1244 /* Build configuration list for PBXProject "Tribuna.uz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19195F351E0C4C2D001F1244 /* Debug */,
+				19195F361E0C4C2D001F1244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19195F371E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19195F381E0C4C2D001F1244 /* Debug */,
+				19195F391E0C4C2D001F1244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19195F3A1E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19195F3B1E0C4C2D001F1244 /* Debug */,
+				19195F3C1E0C4C2D001F1244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19195F3D1E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19195F3E1E0C4C2D001F1244 /* Debug */,
+				19195F3F1E0C4C2D001F1244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19195F071E0C4C2D001F1244 /* Project object */;
+}
