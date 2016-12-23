@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19195F131E0C4C2D001F1244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F121E0C4C2D001F1244 /* AppDelegate.swift */; };
-		19195F151E0C4C2D001F1244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F141E0C4C2D001F1244 /* ViewController.swift */; };
 		19195F181E0C4C2D001F1244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19195F161E0C4C2D001F1244 /* Main.storyboard */; };
 		19195F1A1E0C4C2D001F1244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19195F191E0C4C2D001F1244 /* Assets.xcassets */; };
 		19195F1D1E0C4C2D001F1244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */; };
 		19195F281E0C4C2D001F1244 /* Tribuna_uzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F271E0C4C2D001F1244 /* Tribuna_uzTests.swift */; };
 		19195F331E0C4C2D001F1244 /* Tribuna_uzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F321E0C4C2D001F1244 /* Tribuna_uzUITests.swift */; };
+		19195F491E0C4EB8001F1244 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19195F481E0C4EB8001F1244 /* Info.plist */; };
+		19195F4C1E0C4EDF001F1244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F4A1E0C4EDF001F1244 /* AppDelegate.swift */; };
+		19195F4D1E0C4EDF001F1244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F4B1E0C4EDF001F1244 /* ViewController.swift */; };
+		19195F511E0C4F30001F1244 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F4F1E0C4F30001F1244 /* MainPageVC.swift */; };
+		19195F521E0C4F30001F1244 /* MainPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19195F501E0C4F30001F1244 /* MainPageVC.xib */; };
+		19195F551E0C4F59001F1244 /* MainPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19195F531E0C4F59001F1244 /* MainPageCell.swift */; };
+		19195F561E0C4F59001F1244 /* MainPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19195F541E0C4F59001F1244 /* MainPageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,22 @@
 
 /* Begin PBXFileReference section */
 		19195F0F1E0C4C2D001F1244 /* Tribuna.uz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tribuna.uz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		19195F121E0C4C2D001F1244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19195F141E0C4C2D001F1244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19195F171E0C4C2D001F1244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		19195F191E0C4C2D001F1244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19195F191E0C4C2D001F1244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		19195F1C1E0C4C2D001F1244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		19195F1E1E0C4C2D001F1244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19195F231E0C4C2D001F1244 /* Tribuna.uzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tribuna.uzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19195F271E0C4C2D001F1244 /* Tribuna_uzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribuna_uzTests.swift; sourceTree = "<group>"; };
 		19195F291E0C4C2D001F1244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19195F2E1E0C4C2D001F1244 /* Tribuna.uzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tribuna.uzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19195F321E0C4C2D001F1244 /* Tribuna_uzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribuna_uzUITests.swift; sourceTree = "<group>"; };
 		19195F341E0C4C2D001F1244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19195F481E0C4EB8001F1244 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19195F4A1E0C4EDF001F1244 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19195F4B1E0C4EDF001F1244 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19195F4F1E0C4F30001F1244 /* MainPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		19195F501E0C4F30001F1244 /* MainPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageVC.xib; sourceTree = "<group>"; };
+		19195F531E0C4F59001F1244 /* MainPageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageCell.swift; sourceTree = "<group>"; };
+		19195F541E0C4F59001F1244 /* MainPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +106,13 @@
 		19195F111E0C4C2D001F1244 /* Tribuna.uz */ = {
 			isa = PBXGroup;
 			children = (
-				19195F121E0C4C2D001F1244 /* AppDelegate.swift */,
-				19195F141E0C4C2D001F1244 /* ViewController.swift */,
-				19195F161E0C4C2D001F1244 /* Main.storyboard */,
-				19195F191E0C4C2D001F1244 /* Assets.xcassets */,
-				19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */,
-				19195F1E1E0C4C2D001F1244 /* Info.plist */,
+				19195F441E0C4DEA001F1244 /* AppDelegate */,
+				19195F461E0C4E50001F1244 /* UserServices */,
+				19195F431E0C4DDC001F1244 /* Models */,
+				19195F401E0C4D5E001F1244 /* UserInterface */,
+				19195F471E0C4E63001F1244 /* Management */,
+				19195F421E0C4D98001F1244 /* Extensions */,
+				19195F451E0C4E11001F1244 /* SupportingFiles */,
 			);
 			path = Tribuna.uz;
 			sourceTree = "<group>";
@@ -123,6 +133,81 @@
 				19195F341E0C4C2D001F1244 /* Info.plist */,
 			);
 			path = Tribuna.uzUITests;
+			sourceTree = "<group>";
+		};
+		19195F401E0C4D5E001F1244 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				19195F411E0C4D7F001F1244 /* MainPageVC */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		19195F411E0C4D7F001F1244 /* MainPageVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainPageVC;
+			sourceTree = "<group>";
+		};
+		19195F421E0C4D98001F1244 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19195F431E0C4DDC001F1244 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19195F441E0C4DEA001F1244 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				19195F4A1E0C4EDF001F1244 /* AppDelegate.swift */,
+				19195F4B1E0C4EDF001F1244 /* ViewController.swift */,
+				19195F161E0C4C2D001F1244 /* Main.storyboard */,
+				19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		19195F451E0C4E11001F1244 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				19195F191E0C4C2D001F1244 /* Assets.xcassets */,
+				19195F481E0C4EB8001F1244 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		19195F461E0C4E50001F1244 /* UserServices */ = {
+			isa = PBXGroup;
+			children = (
+				19195F4E1E0C4F12001F1244 /* MainPageVC */,
+			);
+			path = UserServices;
+			sourceTree = "<group>";
+		};
+		19195F471E0C4E63001F1244 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		19195F4E1E0C4F12001F1244 /* MainPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				19195F4F1E0C4F30001F1244 /* MainPageVC.swift */,
+				19195F501E0C4F30001F1244 /* MainPageVC.xib */,
+				19195F531E0C4F59001F1244 /* MainPageCell.swift */,
+				19195F541E0C4F59001F1244 /* MainPageCell.xib */,
+			);
+			path = MainPageVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +278,7 @@
 				TargetAttributes = {
 					19195F0E1E0C4C2D001F1244 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					19195F221E0C4C2D001F1244 = {
@@ -232,6 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19195F521E0C4F30001F1244 /* MainPageVC.xib in Resources */,
+				19195F561E0C4F59001F1244 /* MainPageCell.xib in Resources */,
+				19195F491E0C4EB8001F1244 /* Info.plist in Resources */,
 				19195F1D1E0C4C2D001F1244 /* LaunchScreen.storyboard in Resources */,
 				19195F1A1E0C4C2D001F1244 /* Assets.xcassets in Resources */,
 				19195F181E0C4C2D001F1244 /* Main.storyboard in Resources */,
@@ -259,8 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19195F151E0C4C2D001F1244 /* ViewController.swift in Sources */,
-				19195F131E0C4C2D001F1244 /* AppDelegate.swift in Sources */,
+				19195F511E0C4F30001F1244 /* MainPageVC.swift in Sources */,
+				19195F4D1E0C4EDF001F1244 /* ViewController.swift in Sources */,
+				19195F4C1E0C4EDF001F1244 /* AppDelegate.swift in Sources */,
+				19195F551E0C4F59001F1244 /* MainPageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +393,7 @@
 				19195F171E0C4C2D001F1244 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		19195F1B1E0C4C2D001F1244 /* LaunchScreen.storyboard */ = {
@@ -310,6 +402,7 @@
 				19195F1C1E0C4C2D001F1244 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,10 +505,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tribuna.uz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tribuna.uz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dasturchi.uz.Tribuna-uz";
@@ -505,6 +601,7 @@
 				19195F391E0C4C2D001F1244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19195F3A1E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uzTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +610,7 @@
 				19195F3C1E0C4C2D001F1244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19195F3D1E0C4C2D001F1244 /* Build configuration list for PBXNativeTarget "Tribuna.uzUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +619,7 @@
 				19195F3F1E0C4C2D001F1244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
