@@ -1,14 +1,14 @@
 //
-//  MainPageVC.swift
+//  LeftMenuVC.swift
 //  Tribuna.uz
 //
-//  Created by Ahmadjon on 12/22/16.
+//  Created by Ahmadjon on 12/24/16.
 //  Copyright © 2016 Ahmadjon. All rights reserved.
 //
 
 import UIKit
 
-class MainPageVC: UIViewController {
+class LeftMenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

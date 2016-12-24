@@ -12,10 +12,27 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let navCtrl: TNavigationController! = TNavigationController(rootViewController: self.getRootController())
+        let menuVC: LeftMenuViewController = LeftMenuViewController(nibName: "LeftMenuViewController", bundle: nil)
+        let slideMenuController = SlideMenuController(mainViewController: navCtrl, leftMenuViewController: menuVC)
+        window?.rootViewController = slideMenuController
+        window?.makeKeyAndVisible()
+        
+   
+        
+        if let window = self.window{
+            window.rootViewController = slideMenuController
+        }
+        //self.navigationSetting()
+        //self.detectStartFromNotification(application, launchOptions: launchOptions)
+        //self.configurePushNotifications(application)
+        
         return true
     }
 
@@ -44,7 +61,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     fileprivate func getRootController() -> UIViewController{
         let welcome: MainPageVC = MainPageVC(nibName: "MainPageVC", bundle: nil)
-        
         return welcome;
     }
     

@@ -2,7 +2,7 @@
 //  MainPageCell.swift
 //  Tribuna.uz
 //
-//  Created by Ahmadjon on 12/22/16.
+//  Created by Ahmadjon on 12/23/16.
 //  Copyright © 2016 Ahmadjon. All rights reserved.
 //
 
