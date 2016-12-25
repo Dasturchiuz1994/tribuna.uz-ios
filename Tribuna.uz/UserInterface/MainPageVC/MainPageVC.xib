@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainPageVC" customModule="Tribuna_uz" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="aLO-kV-X2A" id="FJl-z3-001"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1KT-kV-63I">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="63T-x9-Rll">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YANGILIKLAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ear-V9-jF5">
+                                    <rect key="frame" x="0.0" y="0.0" width="106.5" height="30"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O'YINLAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3i7-cf-ILF">
+                                    <rect key="frame" x="106.5" y="0.0" width="107" height="30"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATISTIKA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yf-01-Ejy">
+                                    <rect key="frame" x="213.5" y="0.0" width="106.5" height="30"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.079959326798968902" green="0.63283253205128198" blue="0.012907800676255991" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="63T-x9-Rll" firstAttribute="leading" secondItem="1KT-kV-63I" secondAttribute="leading" id="BN8-Lj-yZK"/>
+                        <constraint firstAttribute="trailing" secondItem="63T-x9-Rll" secondAttribute="trailing" id="b2p-W8-Jef"/>
+                        <constraint firstAttribute="bottom" secondItem="63T-x9-Rll" secondAttribute="bottom" id="fwv-DT-oNH"/>
+                        <constraint firstItem="63T-x9-Rll" firstAttribute="top" secondItem="1KT-kV-63I" secondAttribute="top" id="fzk-nJ-RJ3"/>
+                        <constraint firstAttribute="height" constant="30" id="jjR-R2-SlX"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GM2-Mw-gP9">
+                    <rect key="frame" x="-5" y="30" width="330" height="170"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="3Xr-w5-ZiV">
+                            <rect key="frame" x="0.0" y="0.0" width="330" height="170"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="3Xr-w5-ZiV" secondAttribute="height" multiplier="33:17" id="03Y-Au-oS0"/>
+                            </constraints>
+                        </imageView>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="RIa-wL-1xA">
+                            <rect key="frame" x="114" y="133" width="103" height="37"/>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="RIa-wL-1xA" secondAttribute="bottom" id="1aK-Kk-egJ"/>
+                        <constraint firstItem="3Xr-w5-ZiV" firstAttribute="top" secondItem="GM2-Mw-gP9" secondAttribute="top" id="8Os-hK-sc8"/>
+                        <constraint firstItem="RIa-wL-1xA" firstAttribute="centerX" secondItem="GM2-Mw-gP9" secondAttribute="centerX" id="AqV-C0-8Xa"/>
+                        <constraint firstItem="3Xr-w5-ZiV" firstAttribute="leading" secondItem="GM2-Mw-gP9" secondAttribute="leading" id="Oh6-cZ-1iR"/>
+                        <constraint firstAttribute="trailing" secondItem="3Xr-w5-ZiV" secondAttribute="trailing" id="Sac-oI-Y64"/>
+                        <constraint firstAttribute="bottom" secondItem="3Xr-w5-ZiV" secondAttribute="bottom" id="yed-rS-Neo"/>
+                        <constraint firstAttribute="width" secondItem="GM2-Mw-gP9" secondAttribute="height" multiplier="33:17" id="yla-jK-Fer"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aLO-kV-X2A">
+                    <rect key="frame" x="0.0" y="200" width="320" height="368"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aLO-kV-X2A" firstAttribute="top" secondItem="GM2-Mw-gP9" secondAttribute="bottom" id="IEr-5U-ljC"/>
+                <constraint firstAttribute="trailing" secondItem="1KT-kV-63I" secondAttribute="trailing" id="RQq-Oa-PF9"/>
+                <constraint firstItem="1KT-kV-63I" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RfD-Xn-nNE"/>
+                <constraint firstItem="GM2-Mw-gP9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-5" id="T2F-TM-VQd"/>
+                <constraint firstAttribute="bottom" secondItem="aLO-kV-X2A" secondAttribute="bottom" id="XaR-Q3-Yyv"/>
+                <constraint firstAttribute="trailing" secondItem="GM2-Mw-gP9" secondAttribute="trailing" constant="-5" id="Xqo-kh-RE9"/>
+                <constraint firstItem="GM2-Mw-gP9" firstAttribute="top" secondItem="1KT-kV-63I" secondAttribute="bottom" id="YUQ-GI-X3L"/>
+                <constraint firstItem="aLO-kV-X2A" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aaD-Hv-PeM"/>
+                <constraint firstAttribute="trailing" secondItem="aLO-kV-X2A" secondAttribute="trailing" id="bBL-eA-hHL"/>
+                <constraint firstItem="1KT-kV-63I" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pSW-ro-Ftj"/>
+                <constraint firstItem="GM2-Mw-gP9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="slR-pS-dV9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="3" width="216" height="128"/>
+    </resources>
+</document>

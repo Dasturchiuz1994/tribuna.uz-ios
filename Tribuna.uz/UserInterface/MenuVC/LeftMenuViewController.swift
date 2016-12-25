@@ -10,6 +10,10 @@ import UIKit
 
 class LeftMenuViewController: UIViewController {
 
+    
+    @IBOutlet weak var topLogoView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

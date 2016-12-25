@@ -10,9 +10,9 @@ import UIKit
 //import PKHUD
 
 
+//SlideNavigationControllerDelegate
 
-
-class BaseController: UIViewController, SlideNavigationControllerDelegate {
+class BaseController: UIViewController {
     
 
     
@@ -108,11 +108,12 @@ class BaseController: UIViewController, SlideNavigationControllerDelegate {
         }
     }
     
-    func slideNavigationControllerShouldDisplayLeftMenu() -> Bool {
-        return hasLeftMenu
+/*    func slideNavigationControllerShouldDisplayLeftMenu() -> Bool {
+    return hasLeftMenu
     }
 
     func slideNavigationControllerShouldDisplayRightMenu() -> Bool {
         return hasRightMenu
     }
+ */
 }

@@ -18,9 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
+        
         let navCtrl: TNavigationController! = TNavigationController(rootViewController: self.getRootController())
+        
         let menuVC: LeftMenuViewController = LeftMenuViewController(nibName: "LeftMenuViewController", bundle: nil)
+        
         let slideMenuController = SlideMenuController(mainViewController: navCtrl, leftMenuViewController: menuVC)
+        
         window?.rootViewController = slideMenuController
         window?.makeKeyAndVisible()
         
